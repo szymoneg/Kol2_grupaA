@@ -1,0 +1,6 @@
+<div class="container elems">
+  <div *ngFor="let item of items$">
+    <app-orders-item-sb [id]="item.id" [image]="item.image" [title]="item.title" [price]="item.price" [text]="item.text">
+    </app-orders-item-sb>
+  </div>
+</div>
